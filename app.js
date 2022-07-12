@@ -11,15 +11,19 @@
 
 
 //Example-02
-class employee{
-    constructor(){
-        console.log("Constructor: Manager");
-    }
+// class employee{
+//     constructor(){
+//         console.log("Constructor: Manager");
+//     }
+// }
+// class manager extends employee{}
+// let b = new manager();
+
+
+//Example-03
+class student{
+    
 }
-class manager extends employee{}
-let b = new manager();
-
-
 
 
 
