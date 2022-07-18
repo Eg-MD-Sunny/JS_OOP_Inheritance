@@ -22,13 +22,23 @@
 
 //Example-03
 //Example of how i use one class property to another class.
+// class employee{
+//     constructor(){
+//         console.log('Constructor: Manager');
+//     }
+// }
+// class manager extends employee{}
+// let a = new manager();
+
+
+//Example-04
 class employee{
-    constructor(){
-        console.log('Constructor: Manager');
+    constructor(name){
+        console.log(`Constructor: Manager ${name}`);
     }
 }
 class manager extends employee{}
-let a = new manager();
+let a = new manager("Raba");
 
 
 
