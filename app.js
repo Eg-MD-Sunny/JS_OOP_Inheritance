@@ -32,13 +32,31 @@
 
 
 //Example-04
-class employee{
-    constructor(name){
-        console.log(`Constructor: Manager ${name}`);
-    }
-}
-class manager extends employee{}
-let a = new manager("Raba");
+// class employee{
+//     constructor(name){
+//         console.log(`Constructor: Manager ${name}`);
+//     }
+// }
+// class manager extends employee{}
+// let a = new manager("Raba");
+
+
+//Example-05
+// class employee{
+//     constructor(name){
+//         console.log(`Constructor: Employee ${name}`);
+//     }
+// }
+// class manager extends employee{
+//     constructor(name){
+//         super();
+//         console.log(`Constructor: Manager ${name}`);
+//     }
+// }
+// let a = new manager("Raba");
+
+
+//Example-06
 
 
 
