@@ -72,27 +72,8 @@
 // let a = new manager("Naim");
 // a.info();
 
+
 //Example-07
-class employee{
-    constructor(name){
-        this.empName = name;
-        console.log("Constructor: Employee! " + name);
-    }
-    info(){
-        console.log("Employee name: " + this.empName);
-    }
-}
-class manager extends employee{
-
-}
-let a = new manager("Naim");
-a.info();
-
-
-
-
-
-
 
 
 
